@@ -5,9 +5,9 @@ import Image from 'next/image'
 const ServiceCard = ({title, desc, image}) => {
   return (
     <div className={`w-full max-w-100 lg:max-w-full ${colors.background.secondary} ${colors.text.primary} border ${colors.border.secondary} flex flex-col items-start gap-10 p-5`}>
-      <h1 className='text-lg'>{title}</h1>
+      <h1 className='text-lg md:text-2xl font-semibold'>{title}</h1>
 
-      <p className='text-xs'>{desc}</p>
+      <p className='text-base md:text-lg'>{desc}</p>
 
       <div className='w-[75%] aspect-square overflow-hidden rounded-full m-auto relative'>
         <Image 

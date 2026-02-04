@@ -1,13 +1,8 @@
 import './globals.css';
-import localFont from 'next/font/local';
+import { Inconsolata } from 'next/font/google'
 
-const myFont = localFont({
-  src: [
-    {
-      path: '../public/fonts/Gopher-Medium.ttf',
-      style: 'normal',
-    },
-  ],
+const myFont = Inconsolata({
+  subsets: ['latin'],
 });
 
 

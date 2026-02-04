@@ -1,24 +1,24 @@
 export const colors = {
     background: {
-        primary: "bg-[#FBF6F1]",
-        secondary: "bg-[#E5E0DA]",
-        accent: "bg-[#C2BFCB]",
-        getInTouch: "bg-[#7E7B46]"
+        primary: "bg-[#FAFAFA]",
+        secondary: "bg-[#e4e5f1]",
+        accent: "bg-[#9395a2]",
+        getInTouch: "bg-[#484b6a]"
     },
     text: {
-        primary: "text-[#223614]",
-        secondary: "text-[#FBF6F1]",
+        primary: "text-[#484b6a]",
+        secondary: "text-[#fafafa]",
     },
     border: {
-        primary: "border-[#FBF6F1]",
-        secondary: "border-[#223614]"
+        primary: "border-[#fafafa]",
+        secondary: "border-[#484b6a]"
     },
     buttonBgHover: {
-        primary: "hover:bg-[#223614]",
-        secondary: "hover:bg-[#FBF6F1]",
+        primary: "hover:bg-[#484b6a]",
+        secondary: "hover:bg-[#fafafa]",
     },
     buttonTextHover: {
-        primary: "hover:text-[#FBF6F1]",
-        secondary: "hover:text-[#223614]"
+        primary: "hover:text-[#fafafa]",
+        secondary: "hover:text-[#484b6a]"
     }
 }

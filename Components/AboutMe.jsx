@@ -6,7 +6,7 @@ import drMaya from "../public/Images/drMaya.png";
 import flower from "../public/Images/flower.jpg";
 import { colors } from "@/Styles/colors";
 
-const Contact = () => {
+const AboutMe = () => {
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -70,4 +70,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default AboutMe;

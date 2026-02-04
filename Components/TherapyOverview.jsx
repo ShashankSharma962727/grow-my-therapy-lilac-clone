@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import React from "react";
 import { colors } from "@/Styles/colors";
 import Image from "next/image";
-import about from "../public/Images/about.jpg";
+import overview from "../public/Images/overview.jpg";
 
-const About = () => {
+const TherapyOverview = () => {
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -44,8 +44,8 @@ const About = () => {
 
       <aside className="w-full aspect-video md:aspect-auto overflow-hidden flex-0 md:flex-1 relative">
         <Image
-          src={about}
-          alt="About"
+          src={overview}
+          alt="Therpy Overview"
           placeholder="blur"
           fill
           className="object-cover"
@@ -55,4 +55,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default TherapyOverview;

@@ -54,7 +54,7 @@ A short **Loom video** demonstrates the complete project.
 
 ## 🌐 Live Deployment
 Deployed using **Vercel**.  
-**Live Link:** [https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)
+**Live Link:** [https://dr-maya-reynolds-therapy-center.vercel.app/](https://dr-maya-reynolds-therapy-center.vercel.app/)
 
 ---
 

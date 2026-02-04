@@ -2,10 +2,10 @@
 import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
-import maditation from "../public/Images/maditation.jpg";
+import meditation from "../public/Images/meditation.jpg";
 import { colors } from "@/Styles/colors";
 
-const Motivates = () => {
+const SupportMessage = () => {
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -16,7 +16,7 @@ const Motivates = () => {
     >
       <aside className="relative w-full md:flex-1 aspect-video md:aspect-auto">
         <Image
-          src={maditation}
+          src={meditation}
           alt="Motives"
           placeholder="blur"
           fill
@@ -65,4 +65,4 @@ const Motivates = () => {
   );
 };
 
-export default Motivates;
+export default SupportMessage;
